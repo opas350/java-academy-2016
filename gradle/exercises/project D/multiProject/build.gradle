@@ -1,0 +1,25 @@
+allprojects {
+    group = "com.mycompany.gradle"
+	
+}
+
+
+project(':webModule') {
+    apply plugin: 'war'
+    dependencies {
+     	 compile project(':serviceModule') 
+    }
+}
+
+/*
+TODO: Multi project. Let's say that we are creating a web application.
+which consist of 3 modules, each module is developed by 3 different teams in your company.
+Let's generate the jar and the war files for each module.
+
+* Fix the errors, add the code required to generate the required files: 
+(daoModule-1.0.0-SNAPSHOT.jar, serviceModule-1.0.0-SNAPSHOT.jar, webModule-1.0.0-SNAPSHOT.war)
+Assume that each module has some java files, properties, jsp... and other files.
+the jar files will be empty, no worries. :D
+
+
+*/

@@ -1,0 +1,28 @@
+
+task clean << {
+	println "\tDeleting build foder: $buildFolder\n"
+}
+
+task copyProperties << {
+	println "\tCopying properties ... \n"
+}
+
+task compile << {
+	println "\tCompiling java files: $src \n"
+}
+
+
+task deployApp  << {
+	println "\tDeploying application task \n"
+}
+
+
+
+/*
+TODO:
+*Add a file containing the properties values required.
+*declare the "deployApp" task as default.
+*add the code required to executed the tasks in the follwing order:
+	clean, copyProperties, compile and finally deployApp
+
+*/
