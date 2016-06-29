@@ -19,7 +19,7 @@ This can be accomplished with a right mouse click on any directory.
  
 7. - In each of the directories create another with “solution” as name and add your exercises or tests solutions
 
-8. - Open a new GIT bash prompt and type the next commands (press enter after each)
+8. - Open a new GIT bash prompt and type the next commands (press enter after each)<br/>
 –	“git add --a” so files can be marked as added<br/>
 –	“git commit –m “my solutions” to commit your changes<br/>
 –	“git pull” to get latest revision<br/>
