@@ -9,7 +9,7 @@ If already have GIT installed skip this step.
 3. - Fork the repository by clicking on fork button here: https://github.com/mdc-java/java-academy-2016.
 This will create a repository copy in your profile.
 
-4. - Click on “Clone or download” and copy HTTPS url to clone repository locally. 
+4. - Now in your profile repositorio click on “Clone or download” and copy HTTPS url to clone repository locally. 
 If you already know how to configure SSH keys select “Use SSH” and copy SSH URL.
 
 5. - Open a GIT bash prompt. 
