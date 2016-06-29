@@ -15,12 +15,12 @@ If you already know how to configure SSH keys select “Use SSH” and copy SSH 
 5. - Open a GIT bash prompt. 
 This can be accomplished with a right mouse click on any directory.
 
-6. – Clone repository by using “git clone” command and copied URL
+6. - Clone repository by using “git clone” command and copied URL
  
-7. – In each of the directories create another with “solution” as name and add your exercises or tests solutions
+7. - In each of the directories create another with “solution” as name and add your exercises or tests solutions
 
-8. – Open a new GIT bash prompt and type the next commands (press enter after each)
-–	“git add --a” so files can be marked as added
-–	“git commit –m “my solutions”” to commit your changes
-–	“git pull” to get latest revision
+8. - Open a new GIT bash prompt and type the next commands (press enter after each)
+–	“git add --a” so files can be marked as added\n
+–	“git commit –m “my solutions” to commit your changes\n
+–	“git pull” to get latest revision\n
 –	“git push origin master” to push your changes into GitHub, this will require you to provide GitHub username  and password
