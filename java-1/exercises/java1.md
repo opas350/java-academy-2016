@@ -15,9 +15,9 @@ System.out.println("Hello World"); <br/>
 
 
 #VARIABLES AND OPERATORS
-	Using Variables<br/>
-	The purpose of this exercise is to know how to declare and use variables in Java.<br/>
-	Exercise: <br/>
+	Using Variables
+	The purpose of this exercise is to know how to declare and use variables in Java.
+	Exercise: 
 1.	How to declare primitive and non-primitive data types<br/>
 
 	Variables Scopes<br/>
@@ -40,7 +40,7 @@ Arrays<br/>
 
 
 #CLASSES<br/>
-	Creating a Class.<br/>
+	Creating a Class.
 1. Create in code a simple and small ecosystem based on animal object and their different types of animal classes and define a common behavior between them.<br/>
 	Using methods<br/>
 1. Declare an Overriding Method with Java code.<br/>
@@ -60,7 +60,7 @@ Arrays<br/>
 
 
 #CONTROL STATEMENTS<br/>
-	Transfer of control Statements<br/>
+	Transfer of control Statements
 1. From following code, provide the correct output;<br/>
 int th = 0;<br/>
 int daf = 4;<br/>
@@ -98,7 +98,7 @@ foo () {<br/>
 
 
 #INHERITANCE AND COMPOSITION<br/>
-	Inheritance<br/>
+	Inheritance
 1. Create the code based on the following Class Diagram (just consider the constructor method creation):<br/>
  
 	Composition<br/>
