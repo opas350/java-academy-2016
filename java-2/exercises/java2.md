@@ -2,7 +2,7 @@
 
 #EXCEPTIONS.
 
-## Can you spot the compile-time error in the following Java program?<br/>
+## 1.-Can you spot the compile-time error in the following Java program?<br/>
 
 import java.io.*;<br/>
 public class test {<br/>
@@ -18,7 +18,7 @@ public class test {<br/>
     }<br/>
 }<br/>
 
-## What will be the output of the program?<br/>
+## 2.-What will be the output of the program?<br/>
 try <br/>
 { <br/>
     int x = 0; <br/>
@@ -40,7 +40,7 @@ C.	Compilation fails.<br/>
 D.	Arithmetic Exception<br/>
 
 
-## What will be the output of the program?<br/>
+## 3.-What will be the output of the program?<br/>
 public class MyProgram <br/>
 {<br/>
     public static void main(String args[])<br/>
@@ -64,10 +64,10 @@ D.	Hello world Finally executing<br/>
 
 #COLLECTIONS
 
-## Provides a clean syntax for looping over the elements of a Set, List, array, or other collection<br/>
+## 1.-Provides a clean syntax for looping over the elements of a Set, List, array, or other collection<br/>
 Set<Double> grades = new HashSet<Double>();<br/>
 
-## Set and Ordering. Define the way how the HashSet, TreeSet and LinkedHashSet collections handle the next elements:<br/>
+## 2.-Set and Ordering. Define the way how the HashSet, TreeSet and LinkedHashSet collections handle the next elements:<br/>
 Set<String> names = new …<String>();<br/>
 names.add("Jake");<br/>
 names.add("Robert");<br/>
@@ -75,7 +75,7 @@ names.add("Marisa");<br/>
 names.add("Kasey");<br/>
 System.out.println(names);<br/>
 
-## Write a program that prints its arguments in random order. Do not make a copy of the argument array. Demonstrate how to print out the elements using both streams and the traditional enhanced for statement. <br/>
+## 3.-Write a program that prints its arguments in random order. Do not make a copy of the argument array. Demonstrate how to print out the elements using both streams and the traditional enhanced for statement. <br/>
 
 #ENUMERATIONS
 
@@ -86,11 +86,12 @@ System.out.println(names);<br/>
 ## 3.-Write an example to iterate all values of an enum.<br/>
 
 #IO
-## Write an example that counts the number of times a particular character, such as e, appears in a file. The character can be specified at the command line.<br/>
 
-## Create a new directory by using File object<br/>
+## 1.-Write an example that counts the number of times a particular character, such as e, appears in a file. The character can be specified at the command line.<br/>
 
-## Which one of the following will create an InputStreamReader correctly?<br/>
+## 2.-Create a new directory by using File object<br/>
+
+## 3.-Which one of the following will create an InputStreamReader correctly?<br/>
 1.	new InputStreamReader(new FileInputStream("data"));<br/>
 2.	new InputStreamReader(new FileReader("data"));<br/>
 3.	new InputStreamReader(new BufferedReader("data"));<br/>
