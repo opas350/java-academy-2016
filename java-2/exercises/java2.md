@@ -79,11 +79,11 @@ System.out.println(names);<br/>
 
 #ENUMERATIONS
 
-## Write the code for a simple enum example.<br/>
+## 1.-Write the code for a simple enum example.<br/>
 
-## Write enums code in a switch statements<br/>
+## 2.-Write enums code in a switch statements<br/>
 
-## Write an example to iterate all values of an enum.<br/>
+## 3.-Write an example to iterate all values of an enum.<br/>
 
 #IO
 ## Write an example that counts the number of times a particular character, such as e, appears in a file. The character can be specified at the command line.<br/>
