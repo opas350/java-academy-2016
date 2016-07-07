@@ -2,21 +2,21 @@
 
 #EXCEPTIONS.
 
-1. Can you spot the compile-time error in the following Java program?
-import java.io.*;
-public class test {
-    public static void main(String[] args) {
-        try {
-            FileReader fr = new FileReader("data.txt");
-        }
-        catch(IOException e){}
+1. Can you spot the compile-time error in the following Java program?<br/>
+import java.io.*;<br/>
+public class test {<br/>
+    public static void main(String[] args) {<br/>
+        try {<br/>
+            FileReader fr = new FileReader("data.txt");<br/>
+        }<br/>
+        catch(IOException e){}<br/>
 
-        try {
-            fr.close();
-        }
-        catch(IOException e){}
-    }
-}
+        try {<br/>
+            fr.close();<br/>
+        }<br/>
+        catch(IOException e){}<br/>
+    }<br/>
+}<br/>
 
 2. What will be the output of the program?
 try 
