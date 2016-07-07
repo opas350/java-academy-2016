@@ -18,81 +18,79 @@ public class test {<br/>
     }<br/>
 }<br/>
 
-2. What will be the output of the program?
-try 
-{ 
-    int x = 0; 
-    int y = 5 / x; 
-} 
-catch (Exception e) 
-{
-    System.out.println("Exception"); 
-} 
-catch (ArithmeticException ae) 
-{
-    System.out.println(" Arithmetic Exception"); 
-} 
-System.out.println("finished");
+2. What will be the output of the program?<br/>
+try <br/>
+{ <br/>
+    int x = 0; <br/>
+    int y = 5 / x; <br/>
+} <br/>
+catch (Exception e) <br/>
+{<br/>
+    System.out.println("Exception"); <br/>
+} <br/>
+catch (ArithmeticException ae) <br/>
+{<br/>
+    System.out.println(" Arithmetic Exception"); <br/>
+} <br/>
+System.out.println("finished");<br/>
 
-A.	finished
-B.	Exception
-C.	Compilation fails.
-D.	Arithmetic Exception
+A.	finished<br/>
+B.	Exception<br/>
+C.	Compilation fails.<br/>
+D.	Arithmetic Exception<br/>
 
 
-3. What will be the output of the program?
-public class MyProgram 
-{
-    public static void main(String args[])
-    {
-        try 
-        {
-            System.out.print("Hello world ");
-        }
-        finally 
-        {
-            System.out.println("Finally executing ");
-        }
-    }
-}
+3. What will be the output of the program?<br/>
+public class MyProgram <br/>
+{<br/>
+    public static void main(String args[])<br/>
+    {<br/>
+        try <br/>
+        {<br/>
+            System.out.print("Hello world ");<br/>
+        }<br/>
+        finally <br/>
+        {<br/>
+            System.out.println("Finally executing ");<br/>
+        }<br/>
+    }<br/>
+}<br/>
 
-A.	Nothing. The program will not compile because no exceptions are specified.
-B.	Nothing. The program will not compile because no catch clauses are specified.
-C.	Hello world.
-D.	Hello world Finally executing
+A.	Nothing. The program will not compile because no exceptions are specified.<br/>
+B.	Nothing. The program will not compile because no catch clauses are specified.<br/>
+C.	Hello world.<br/>
+D.	Hello world Finally executing<br/>
 
 
 #COLLECTIONS
 
-1. Provides a clean syntax for looping over the elements of a Set, List, array, or other collection
-Set<Double> grades = new HashSet<Double>();
+1. Provides a clean syntax for looping over the elements of a Set, List, array, or other collection<br/>
+Set<Double> grades = new HashSet<Double>();<br/>
 
-2. Set and Ordering. Define the way how the HashSet, TreeSet and LinkedHashSet collections handle the next elements:
-Set<String> names = new …<String>();
-names.add("Jake");
-names.add("Robert");
-names.add("Marisa");
-names.add("Kasey");
-System.out.println(names);
+2. Set and Ordering. Define the way how the HashSet, TreeSet and LinkedHashSet collections handle the next elements:<br/>
+Set<String> names = new …<String>();<br/>
+names.add("Jake");<br/>
+names.add("Robert");<br/>
+names.add("Marisa");<br/>
+names.add("Kasey");<br/>
+System.out.println(names);<br/>
 
-3. Write a program that prints its arguments in random order. Do not make a copy of the argument array. Demonstrate how to print out the elements using both streams and the traditional enhanced for statement. 
+3. Write a program that prints its arguments in random order. Do not make a copy of the argument array. Demonstrate how to print out the elements using both streams and the traditional enhanced for statement. <br/>
 
 #ENUMERATIONS
 
-1. Write the code for a simple enum example.
-
-2. Write enums code in a switch statements
-
-3. Write an example to iterate all values of an enum.
+1. Write the code for a simple enum example.<br/>
+2. Write enums code in a switch statements<br/>
+3. Write an example to iterate all values of an enum.<br/>
 
 #IO
-1. Write an example that counts the number of times a particular character, such as e, appears in a file. The character can be specified at the command line.
+1. Write an example that counts the number of times a particular character, such as e, appears in a file. The character can be specified at the command line.<br/>
 
-2. Create a new directory by using File object
+2. Create a new directory by using File object<br/>
 
-3. Which one of the following will create an InputStreamReader correctly?
-1.	new InputStreamReader(new FileInputStream("data"));
-2.	new InputStreamReader(new FileReader("data"));
-3.	new InputStreamReader(new BufferedReader("data"));
-4.	new InputStreamReader("data");
-5.	new InputStreamReader(System.in);
+3. Which one of the following will create an InputStreamReader correctly?<br/>
+1.	new InputStreamReader(new FileInputStream("data"));<br/>
+2.	new InputStreamReader(new FileReader("data"));<br/>
+3.	new InputStreamReader(new BufferedReader("data"));<br/>
+4.	new InputStreamReader("data");<br/>
+5.	new InputStreamReader(System.in);<br/>
