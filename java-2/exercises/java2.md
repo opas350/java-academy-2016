@@ -3,6 +3,7 @@
 #EXCEPTIONS.
 
 1. Can you spot the compile-time error in the following Java program?<br/>
+
 import java.io.*;<br/>
 public class test {<br/>
     public static void main(String[] args) {<br/>
@@ -10,7 +11,6 @@ public class test {<br/>
             FileReader fr = new FileReader("data.txt");<br/>
         }<br/>
         catch(IOException e){}<br/>
-
         try {<br/>
             fr.close();<br/>
         }<br/>
