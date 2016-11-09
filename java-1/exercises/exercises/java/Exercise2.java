@@ -16,7 +16,7 @@ public class Exercise2 {
 
 		// Non-Primitive
 	String word;
-	int[] array1;
+	int[] array1 = new int[10];
 	
 
 	// ------ Variables Scopes
@@ -137,7 +137,6 @@ public class Exercise2 {
 		// the assigment of values can be as shown below
 				arrayExample[0] = 1;
 				arrayExample[1] = 2;
-				arrayExample[2] = 3;
 
 		// another way to create an array can be like this
 				int[] arrayExample2;
