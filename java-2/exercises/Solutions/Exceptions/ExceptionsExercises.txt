@@ -1,0 +1,51 @@
+
+Exercises JAVA2 Solutions
+By: Javier Reyes
+
+--- Exceptions ---
+
+1.-Can you spot the compile-time error in the following Java program?
+		try {
+			FileReader fr = new FileReader("data.txt");
+		} catch(IOException e){}
+		
+		try {
+			fr.close(); <---- Out of Scope
+		} catch(IOException e) {}
+
+Answer: 
+In this program the FileReader fr created can be used by the fr.close() because
+it's out of scope for that try block.
+
+2.-What will be the output of the program?
+
+		try {
+			int x = 0;
+			int y = 5 / x;
+		} catch (Exception e) {
+			System.out.println("Exception");
+		} catch (ArithmeticException ae) {
+			System.out.println("Arithmetic Exception");
+		}
+
+		System.out.println("Finished");
+
+Answer: C.- Compilation fails
+the catch(Exception e) catch the error first and doesn't allow the ArithmeticException
+to be catched by the correct catcher.
+
+3.- What will be the output of the program?
+
+		try {
+			System.out.println("Hello World");
+		}
+
+		finally {
+			System.out.println("Finally executing");
+		}
+
+Answer :  D.- Hello World Finally Executing.
+
+Event with out the catch the code can compile and run, the code is simple enough
+to don't cause error, but if the code contains something more complex it wont
+have the catch clause to deal with the error and always end with the finally.
