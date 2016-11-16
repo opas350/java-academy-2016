@@ -1,0 +1,5 @@
+This is a test
+the program should count
+the number of times a specific 
+letter appears in this
+text, end of text.
