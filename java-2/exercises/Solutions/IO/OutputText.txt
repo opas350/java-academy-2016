@@ -1,0 +1,2 @@
+The char e appeared 12 times
+on file InputText.txt
