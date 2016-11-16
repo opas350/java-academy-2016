@@ -1,0 +1,21 @@
+Exercise 3
+By Javier Reyes
+
+3.-Which one of the following will create an InputStreamReader correctly?
+
+a) new InputStreamReader(new FileInputStream("data"));
+b) new InputStreamReader(new FileReader("data"));
+c) new InputStreamReader(new BufferedReader("data"));
+d) new InputStreamReader("data");
+e) new InputStreamReader(System.in);
+
+Answer:
+
+The option a) and e) are the correct ones.
+According with the documentation:
+An inputStreamReader is a bridge from byte stream to character streams.
+
+InputStreamReader(InputStream in);
+
+In this case option a) and e) declarations are legal and could be used in a program.
+The other options can't be used because they are implemented wrong.
