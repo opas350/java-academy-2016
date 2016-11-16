@@ -1,17 +1,21 @@
 /* 
-	Exercise 1 of IO
+	Exercise 1 and 2 of IO
 	Author: Javier Reyes
  */
 
 // 1.-Write an example that counts the number of times a particular character, 
 // such as e, appears in a file. The character can be specified at the command line.
 
+// 2.-Create a new directory by using File object
+
 
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
+import java.io.FileWriter;
 import java.io.IOException;
+import java.io.PrintWriter;
 
 public class IOExercise {
 
@@ -24,6 +28,7 @@ public class IOExercise {
 		FileReader reader = null;  // Declare the Filereader
 
 		File fp = new File("InputText.txt").getAbsoluteFile(); // get the path for the input file 
+		File outputPath = new File("OutputText.txt").getAbsoluteFile(); // path for the output file for exercise 2
 
 		// First Try-catch block
 		try {
@@ -56,6 +61,18 @@ public class IOExercise {
 		if(filefound){
 		System.out.print("The char " + charToBeFound + " appeared " + counterOfFound + " times");
 		System.out.print(" on file " + fp.getName());
+		}
+		
+		// This part of the program correspond to the exercise2 
+		// to create the file with the output a PrintWriter object will be used
+		
+		try (PrintWriter pWriter = new PrintWriter(new FileWriter(outputPath))){
+			
+			pWriter.println("The char " + charToBeFound + " appeared " + counterOfFound + " times");
+			pWriter.println("on file " + fp.getName());
+			System.out.println("\nFile " + outputPath.getName() + " was created");
+		}catch(IOException e) {
+			e.printStackTrace();
 		}
 	}
 }
