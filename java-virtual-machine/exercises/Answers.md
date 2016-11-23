@@ -29,8 +29,8 @@ To increase the size the command -Xmx can be used.
 
 # Explain Hotspot Heap structure
 <h1> * Young Generation
-<h3>	* Eden space
-<h3>	* Survivor space (S0 & S1)
+<h3>	*   Eden space
+<h3>	*   Survivor space (S0 & S1)
 <h1> * Old Generation
 <h1> * Permanent Generation
 
