@@ -28,7 +28,7 @@ java -XX:MaxPermSize.
 To increase the size the command -Xmx can be used.
 
 # Explain Hotspot Heap structure
-h1# - Young Generation
+<h1> * Young Generation
 
 
 # Give two scenarios where you can get an OutOfMemoryError error
